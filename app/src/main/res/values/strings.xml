@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FingerprintManagerDemo</string>
+    <string name="fingerprint_demo_with_dialog">Fingerprint Demo with dialog</string>
+    <string name="fingerprint_demo_without_dialog">Fingerprint Demo without dialog</string>
+    <string name="fingerprint_demo_with_fragment_manager_intent">Fingerprint Demo with Fragment Manager intent</string>
+    <string name="android_robot_icon">Android Robot Icon</string>
+    <string name="android_robot_keychain">Android Robot Keychain</string>
+    <string name="purchase_item">Purchase Item</string>
 </resources>
