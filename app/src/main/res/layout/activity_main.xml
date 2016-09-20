@@ -17,20 +17,20 @@
         android:layout_marginBottom="8dp"
         android:text="@string/fingerprint_demo_with_dialog" />
 
-    <Button
-        android:id="@+id/button_without_dialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/button_with_dialog"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:text="@string/fingerprint_demo_without_dialog" />
+    <!--<Button-->
+        <!--android:id="@+id/button_without_dialog"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/button_with_dialog"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="@string/fingerprint_demo_without_dialog" />-->
 
     <Button
         android:id="@+id/btn_with_fingerprint_manager_intent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button_without_dialog"
+        android:layout_below="@id/button_with_dialog"
         android:layout_centerHorizontal="true"
         android:text="@string/fingerprint_demo_with_fragment_manager_intent" />
 

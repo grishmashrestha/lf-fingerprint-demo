@@ -7,6 +7,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="np.com.grishma.fingerprintmanagerdemo.withdialogactivity.FingerprintWithDialogActivity">
+    tools:context=".withdialogactivity.FingerprintWithDialogActivity">
+
+    <ImageView
+        android:id="@+id/image_android_robot_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/android_robot_icon"
+        android:src="@drawable/android_robot" />
+
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/text_android_robot_keychain_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_android_robot_icon"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="@string/android_robot_keychain" />
+
+    <Button
+        android:id="@+id/button_purchase_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_android_robot_keychain_desc"
+        android:layout_centerHorizontal="true"
+        android:text="@string/purchase_item" />
 
 </RelativeLayout>
